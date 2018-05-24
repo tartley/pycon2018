@@ -110,7 +110,8 @@ The above syntax
 and the standard library typing module
 are Python 3 only,
 but Python 2 users can use an alternative syntax, embedded in comments,
-and a port of the typing module is available as a downloadable module on PyPI.
+and a port of the typing module is available as a
+(https://docs.python.org/3/library/typing.html)[downloadable module on PyPI.]
 So all of this applies to Python2 just as much as Python3.
 
 For the last few years,
@@ -410,6 +411,9 @@ But tools like mypy will use them to validate instances of Color.
 
 This far more closely resembles the creation of regular classes,
 and also allows for default values on attributes.
+
+Again, the NamedTuple base class is defined in the backport of typing for Python 2.7,
+available on PyPI, so all of this works for Python2 as well as Python3.
 
 It also converges the syntax for creating namedtuples with that for creating
 a major new feature of Python3.7, dataclasses.
