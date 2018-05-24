@@ -406,14 +406,14 @@ But the NamedTuple base class triggers
 some metaclass magic to transform this into a namedtuple,
 rather than a regular class.
 
+Again, the NamedTuple base class is defined in the backport of typing for Python 2.7,
+available on PyPI, so all of this works for Python2 as well as Python3.
+
 As usual, the Python interpreter does nothing with these type annotations.
 But tools like mypy will use them to validate instances of Color.
 
 This far more closely resembles the creation of regular classes,
 and also allows for default values on attributes.
-
-Again, the NamedTuple base class is defined in the backport of typing for Python 2.7,
-available on PyPI, so all of this works for Python2 as well as Python3.
 
 It also converges the syntax for creating namedtuples with that for creating
 a major new feature of Python3.7, dataclasses.
