@@ -406,8 +406,10 @@ But the NamedTuple base class triggers
 some metaclass magic to transform this into a namedtuple,
 rather than a regular class.
 
-Again, the NamedTuple base class is defined in the backport of typing for Python 2.7,
-available on PyPI, so all of this works for Python2 as well as Python3.
+(Although the NamedTuple base class is defined in the PyPI backport of typing
+for Python 2.7, the language syntax for annotations is not available in
+Python2, and I've been unable to find a way to get this to work using
+the Python2 "types as comments" syntax.)
 
 As usual, the Python interpreter does nothing with these type annotations.
 But tools like mypy will use them to validate instances of Color.
