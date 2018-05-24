@@ -75,7 +75,7 @@ To declare a variable's type:
 x : str = "hello"
 ```
 
-Strictly speaking, this declration of 'x' as a 'str' is redundant - in this case, the type of x would be inferred, even without any type annotation. But it gives you a flavor of the syntax.
+Strictly speaking, this declration of 'x' as a 'str' is redundant - in this case, the type of x would be inferred, even without any type annotation. But it gives you a flavor of the syntax. Straight away though, this highlights one important part of type annotations in Python - they are not only optional, but in some cases you'll get all the benefits without even adding any annotations to the code. More on this later...
 
 ## Type Annotations
 
