@@ -524,6 +524,9 @@ This is easily done but is verbose and repetitive boilerplate code.
 
 The solution to this problem is
 Data classes, newly introduced in 3.7,
+(No Python2.7 backport exists - although if you're stuck on 2.7,
+many comparable features exist in [https://pypi.org/project/attrs/]('attrs' on PyPI),
+which was one of the spiritual precursors to dataclasses.)
 
 :::
 
