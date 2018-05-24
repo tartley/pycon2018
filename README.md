@@ -75,6 +75,8 @@ To declare a variable's type:
 x : str = "hello"
 ```
 
+Strictly speaking, this declration of 'x' as a 'str' is redundant - in this case, the type of x would be inferred, even without any type annotation. But it gives you a flavor of the syntax.
+
 ## Type Annotations
 
 Or declare a function's parameters and return type:
